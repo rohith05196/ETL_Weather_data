@@ -70,3 +70,20 @@ To add Python dependencies:
 pip install <package>
 poetry add <package>       # If using Poetry
 ```
+
+## Output
+
+Based on the configuration set in the DAG, The weather data for the given lattitude and Longitude will be updated and stored in PostgreSQL data base. 
+
+### DAG 
+
+![alt text](Images/weather_etl_pipeline-graph.png)
+
+### Check the Weather data in the relational database
+
+Any database management system that can show the schema can be used to look into the weather information 
+
+In the current repo `DBeaver` has been used and frozen snapshot of the output is shown below.
+
+![alt text](Images/postgreSQL.png)
+
