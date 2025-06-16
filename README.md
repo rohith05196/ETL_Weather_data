@@ -13,6 +13,7 @@ This project is an ETL pipeline for extracting, transforming, and loading weathe
 - Apache Airflow (via [Astronomer CLI](https://docs.astronomer.io/astro/cli))
 - Docker
 - Docker Compose
+- PostgreSQL
 - Python
 
 ![Apache Airflow](Images/Airflow.png) 
@@ -22,6 +23,8 @@ This project is an ETL pipeline for extracting, transforming, and loading weathe
 ![Docker](Images/Docker.png) 
 
 ![Docker Compose](Images/DockerCompose.png)
+
+![alt text](Images/postgreSQL2.png)
 
 ## 🧭 Project Structure
 
@@ -71,7 +74,7 @@ pip install <package>
 poetry add <package>       # If using Poetry
 ```
 
-## Output
+## 🚀 Output
 
 Based on the configuration set in the DAG, The weather data for the given lattitude and Longitude will be updated and stored in PostgreSQL data base. 
 
